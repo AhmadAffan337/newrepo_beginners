@@ -3,20 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My website</title>
+    <title>Document</title>
 
     <style>
       body {
-        background-color: antiquewhite;
+        display: grid;
+        height: 100vh;
+        background-color: beige;
+        margin: 10;
+        padding: 10;
+        color: rgb(45, 55, 29);
+        /*text-align: center;*/
+        line-height: 1.2;
+      }
+
+      .heading {
+        font-size: 40px;
+      }
+
+      p {
+        color: red;
+      }
+
+      .ulist {
+        list-style-type: none; /* Removes default bullet points */
+        padding: 15px;
+        margin: 20px;
+        border: 2px solid #badb34; /* Blue border */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+        background-color: #f8f9fa; /* Light background */
+        width: fit-content; /* Adjusts width to content */
+      }
+
+      ul li {
+        padding: 8px 12px;
+        font-size: 16px;
+        color: #333;
       }
     </style>
   </head>
 
   <body>
-    <h1>Hello! Welcome to my website</h1>
+    <h1 class="heading">Hello welcome to my app</h1>
+    <p>My name is Ahmad</p>
 
-    <p>My name is Ahmad and i am a software engineer</p>
+    <h2>Laptops</h2>
+    <ul class="ulist">
+      <li>Dell</li>
+      <li>Apple</li>
+      <li>Hp</li>
+    </ul>
 
-    <p>I have 5 years of experience</p>
+    <h2>Steps to make a sandwitch</h2>
+
+    <ol>
+      <li>Take two slices of bread</li>
+      <li>Spread butter on one side</li>
+      <li>Add lettuce and tomato</li>
+      <li>Place another slice on top</li>
+    </ol>
+
+    <img
+      width="300"
+      height="200"
+      src="download.jpg"
+      alt="This is a great image"
+    />
+
+    <a href="https://www.daraz.pk/catalog/?q=Gaming%20laptop%20&from=input"
+      >Click here to explore products</a
+    >
   </body>
 </html>
